@@ -399,6 +399,12 @@ p{
 			align-items: flex-start;
 			justify-content: flex-start;
 		}
+		.contact .contact-sub p{
+			font-size: 2rem;
+		}
+		.contact .contact-sub h2{
+			font-size: 2.5rem;
+		}
 		footer div p{
 			display: flex;
 			justify-content: center;
