@@ -296,6 +296,7 @@ p{
 
 	margin-left: 10vh;
 	margin-bottom: 5vh;
+	margin-top: 5vh;
 }
 
 
@@ -315,3 +316,16 @@ footer{
 
 
 /*Line Break Styles*/
+
+.line-break-container{
+	display: flex;
+	justify-content: center;
+}
+
+.line-break{
+	width: 90%;
+	height: 1px;
+
+	background: black;
+
+}
