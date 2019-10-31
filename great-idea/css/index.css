@@ -445,3 +445,117 @@ footer{
 	background: black;
 }
 
+
+
+
+
+
+
+
+
+
+
+/**********SERVICES PAGE***********/
+
+.services-top{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+
+	width: 100%;
+}
+
+.services-top-upper{
+	width: 90%;
+}
+
+.services-header-img{
+	width: 100%;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+.services-top-lower{
+	width: 90%;
+}
+
+.service-line-break{
+	margin: 5vh 0;
+}
+
+
+
+
+/*Main*/
+
+.services-main{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5vh;
+}
+
+.services-container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.service-card{
+	border: 1px solid black;
+	background: rgb(206, 206, 206);
+
+	width: 48%;
+	margin-bottom: 5vh;
+	padding: 2%;
+}
+
+.service-card p{
+	margin-bottom: 2vh;
+}
+
+.service-learn-btn{
+	border: 1px solid black;
+	border-radius: 8px;
+	padding: 1% 4%;
+	text-decoration: none;
+	color: black;
+	font-size: 0.85rem;
+	background: whitesmoke;
+}
+
+/*Bottom*/
+
+.services-bottom{
+	display: flex;
+	justify-content: center;
+	
+	margin-top: 5vh;
+}
+
+.services-bottom-container{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.services-bottom-left{
+	width: 48%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.services-bottom-left ul{
+	width: 40%;
+	list-style: square;
+	margin-left: 4%;
+	margin-top: 2vh;
+}
+
+.services-bottom-right{
+	width: 48%;
+}
+
