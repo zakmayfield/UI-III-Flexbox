@@ -64,9 +64,12 @@ h1, h2, h3, h4, h5 {
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	border: 1px solid gray;
+	border: none;
 }
 
+body{
+	border: none;
+}
 
 
 
@@ -109,18 +112,6 @@ nav{
 	border: none;
 }
 
-.nav-logo{
-	display: flex;
-	justify-content: center;
-
-	width: 20%;
-
-	border: none;
-}
-.nav-logo img{
-	border: none;
-}
-
 .nav-list a{
 	font-family: 'Amatic SC', cursive;
 	font-size: 2rem;
@@ -140,3 +131,187 @@ nav{
 	transform: scale(1.1);
 	transition: 200ms;
 }
+
+.nav-logo{
+	display: flex;
+	justify-content: center;
+
+	width: 20%;
+
+	border: none;
+}
+.nav-logo img{
+	border: none;
+}
+
+
+
+
+/*Top Section*/
+
+h1{
+	/*Innovation On Demand font size*/
+	font-size: 5rem;
+
+	border: none;
+}
+
+.top-section{
+	/*Both left and right sections centered with space around*/
+	/*also added a margin of top and bottom to be 5vh*/
+	display: flex;
+	justify-content: space-around;
+
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+
+	border: none;
+}
+
+.top-section-left{
+	/*made to column, then justified to center*/
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+
+	border: none;
+}
+.top-section-btn{
+	align-self: center;
+
+	border: none;
+}
+.top-section-btn a{
+	text-decoration: none;
+	color: black;
+	font-size: 2rem;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 900;
+
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px 30px;
+}
+.top-section-btn a:hover{
+	background: rgba(207, 207, 207, 0.479);
+	box-shadow: 0px 5px 5px #888;
+	transition: 200ms;
+}
+
+.top-section-header{
+	/*text aligning a block lvl element*/
+	text-align: center;
+
+	border: none;
+}
+
+.top-section-right{
+	display: flex;
+
+	border: none;
+}
+
+.top-section-right img{
+	border: none;
+}
+
+
+
+
+/*Bottom section / bottom-top left and right*/
+
+h2{
+	font-size: 1.75rem;
+
+	border: none;
+}
+
+p{
+	font-size: 1.2rem;
+	line-height: 1.2;
+
+	border: none;
+}
+
+.bottom-section-top{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+
+	border: none;
+}
+
+.bottom-section-top-left{
+	width: 40%;
+
+	border: none;
+}
+
+.bottom-section-top-right{
+	widows: 40%;	
+
+	border: none;
+}
+
+.bottom-section-mid{
+	display: flex;
+	justify-content: center;
+
+	border: none;
+}
+
+.middle-img{
+	width: 90%;
+	margin-bottom: 5vh;
+
+	border: none;
+}
+
+.bottom-section-lower{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+
+	border: none;
+}
+
+.bottom-section-lower > article{
+	width: 23%;
+
+	border: none;
+}
+
+
+
+
+/*Contact*/
+
+.contact{
+	display: flex;
+	justify-content: flex-start;
+
+	margin-left: 10vh;
+	margin-bottom: 5vh;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 20vh;
+}
+
+
+
+
+/*Line Break Styles*/
