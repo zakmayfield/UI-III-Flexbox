@@ -179,6 +179,7 @@ nav{
 			margin-top: 2vh;
 			margin-bottom: 5vh;
 		}
+		
 	}
 
 
@@ -267,6 +268,9 @@ h1{
 	.top-section-btn a{
 		font-size: 4rem;
 	}
+	section article p {
+		font-size: 1.5rem;
+	}
 }
 
 
@@ -318,6 +322,9 @@ p{
 	
 	.bottom-section-top-right{
 		widows: 90%;	
+	}
+	section article p {
+		font-size: 1.5rem;
 	}
 }
 
@@ -371,11 +378,36 @@ p{
 .contact{
 	display: flex;
 	justify-content: flex-start;
-
-	margin-left: 10vh;
-	margin-bottom: 5vh;
 	margin-top: 5vh;
+	margin-left: 10vw;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+		.contact{
+			display: flex;
+			justify-content: center;
+			margin-top: 5vh;
+			margin-left: 0;
+		}
+		.contact-sub{
+			display: flex;
+			flex-flow: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+		footer div p{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 2rem;
+		
+			height: 20vh;
+		}
+	}
 
 
 
@@ -406,3 +438,4 @@ footer{
 
 	background: black;
 }
+
